@@ -1,0 +1,203 @@
+@font-face {
+	font-family: 'Unitropico';
+	src: url('../font/noah-bold.otf');
+}
+
+@font-face {
+	font-family: 'Textos';
+	src: url('../font/Montserrat-Regular.ttf')
+}
+
+p {
+	font-family: 'Textos';
+	text-align: justify;
+}
+
+
+h1 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+h2 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+h2 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+h3 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+h4 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+h5 {
+	font-family: 'Unitropico';
+	color: #B5A160;
+}
+
+.unitropico {
+	font-family: 'Unitropico';
+	color: #00594E;
+}
+
+
+.verde {
+	color: #00594E;
+}
+
+.bgVerde {
+	background-color: #00594E;
+}
+
+.dorado {
+	color: #B5A160;
+}
+
+.sistemas {
+	color: #36BCEE;
+}
+
+.centrado {
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+form {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.form-label {
+	font-family: 'Textos';
+	color: #00594E;
+}
+
+.form-control {
+	font-family: 'Textos';
+	border-color: #00594E;
+}
+
+.btn-primary {
+	background-color: #00594E;
+	border-color: #00594E;
+}
+
+.btn-primary:hover {
+	background-color: #004d42;
+	border-color: #004d42;
+}
+
+.boton-imagen {
+	width: 400px;
+	height: 400px;
+	transition: all 0.3s ease-in-out;
+	overflow: hidden;
+}
+
+.boton-imagen img {
+	max-width: 100%;
+	height: auto;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boton-imagen {
+	margin: 10px;
+}
+
+.button {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	transition: transform 0.3s ease-out;
+	width: 200px;
+	/* Ajusta el tamaño del botón */
+	height: auto;
+	margin: 0 10px;
+	/* Ajusta el espaciado entre los botones */
+	text-align: center;
+	/* Para centrar el texto */
+	text-decoration: none;
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+	/* Alinear los button-groups al centro horizontalmente */
+	margin-bottom: 20px;
+	/* Ajusta el espacio entre los grupos de botones */
+}
+
+.button-group>a {
+	margin: 0 10px;
+	/* Ajusta el espacio entre los botones dentro de cada grupo */
+}
+
+.button:hover {
+	transform: scale(0.8);
+	/* Hace que los botones se hagan más pequeños al pasar el cursor */
+}
+
+.button img {
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease-out;
+	border-radius: 50px;
+	/* Agrega un borde redondeado a la imagen */
+}
+.button {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	transition: transform 0.3s ease-out;
+	width: 200px;
+	/* ajusta el tamaño del botón */
+	height: auto;
+	margin: 0 10px;
+	/* ajusta el espaciado entre los botones */
+	text-align: center;
+	/* para centrar el texto */
+	text-decoration: none;
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+	/* Alinear los button-groups al centro horizontalmente */
+	margin-bottom: 20px;
+	/* Ajusta el espacio entre los grupos de botones */
+}
+				
+.button-group>a {
+margin: 0 10px;
+/* Ajusta el espacio entre los botones dentro de cada grupo */
+}
+				
+.button:hover {
+transform: scale(0.8);
+/* hace que los botones se hagan más pequeños al pasar el cursor */
+}
+
+.button img {
+width: 100%;
+height: auto;
+transition: transform 0.3s ease-out;
+border-radius: 50px;
+/* Agrega un borde redondeado a la imagen */
+
+}

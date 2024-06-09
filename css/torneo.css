@@ -1,0 +1,27 @@
+/* estilos.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.button img {
+    width: 150px; /* Tamaño mediano */
+    height: auto;
+    margin-right: 10px;
+}

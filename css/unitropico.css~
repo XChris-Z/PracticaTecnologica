@@ -1,0 +1,83 @@
+@font-face{
+	font-family: 'Unitropico';
+	src: url('../font/noah-bold.otf');
+}
+
+@font-face{
+	font-family: 'Textos';
+	src: url('../font/Montserrat-Regular.ttf')
+}
+
+p{
+	font-family: 'Textos';
+	text-align: justify;	
+}
+
+
+h1{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+h2{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+h2{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+h3{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+h4{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+h5{
+	font-family: 'Unitropico';
+	color:#B5A160;
+}
+
+
+
+.unitropico{
+	font-family: 'Unitropico';
+	color:#00594E;
+}
+
+
+.verde{
+	color:#00594E;
+}
+
+
+
+.bgVerde{
+	background-color:#00594E;
+}
+
+
+.dorado{
+	color:#B5A160;
+}
+
+
+.sistemas{
+	color:#36BCEE;
+}
+
+
+.centrado{
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+

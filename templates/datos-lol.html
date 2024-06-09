@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inscritos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/datos-exis.css" rel="stylesheet">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+
+    <a class="navbar-brand" href="https://unitropico.edu.co/index.php/8-institucional/237-q10-academico"
+        target="_blank">
+        <img src="/img/boton.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+
+    <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a href="/templates/datos-clash.html" class="nav-link dorado" >ClashRoyale</a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a href="/templates/datos-exis.html" class="nav-link dorado" >EXIS</a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav me-auto ">
+        <li class="nav-item">
+            <a href="/templates/datos-free.html" class="nav-link dorado" >FreeFire</a>
+        </li>
+    </ul>
+
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="/templates/sesion.html" class="btn btn-outline-success">Cerrar sesión</a>
+        </li>
+    </ul>
+
+    </div>
+</nav>
+
+
+    
+    <div class="center-content">
+        <h1 class="unitropico">Inscritos League of Legends</h1>
+        <input type="text" id="buscarInput" placeholder="Buscar por Nombre">
+        <button id="buscar">Buscar</button>
+        <button id="todo">Mostrar todo</button>
+    </div>
+    
+    <div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="sticky">Tipo ID</th>
+                <th class="sticky">Número ID capitanv</th>
+                <th class="sticky">Nombre del capitan</th>
+                <th class="sticky">Riot ID</th>
+
+                <th class="sticky">Nombre del Equipo</th>
+                <th class="sticky">Número de Teléfono</th>
+                <th class="sticky">Correo</th>
+
+                <th class="sticky">Número ID Participante 2</th>
+                <th class="sticky">Nombre del Participante 2</th>
+                <th class="sticky">Riot ID Participante 2</th>
+
+                <th class="sticky">Número ID Participante 3</th>
+                <th class="sticky">Nombre del Participante 3</th>
+                <th class="sticky">Riot ID Participante 3</th>
+
+                <th class="sticky">Número ID Participante 4</th>
+                <th class="sticky">Nombre del Participante 4</th>
+                <th class="sticky">Riot ID Participante 4 </th>
+
+                <th class="sticky">Número ID Participante 5</th>
+                <th class="sticky">Nombre del Participante 5</th>
+                <th class="sticky">Riot ID Participante 5 </th>
+
+                <th class="sticky">Número ID suplente</th>
+                <th class="sticky">Nombre del suplente</th>
+                <th class="sticky">Riot ID suplente</th>
+
+
+
+
+                <th class="sticky">Acción</th>
+            </tr>
+        </thead>
+        <tbody id="tablabody">
+
+        </tbody>
+    </table>
+</div>
+
+
+
+<script type="module" src="/controllers/fun-lol.js"> </script>
+
+</body>
+
+</html>
+
+
